@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Find";
+}
+
+<!--Webform get-->
+<div>
+    <!--Caja de text nombre y año-->
+    <form id="findPersonForm" method="post">
+        <h1 style="padding-left:15%">Buscar!</h1>
+        <div style="margin-top:30px; margin-left:10%; font-weight:bold;">Datos de la persona</div> <br />
+        <div style="float:right; margin-top:-70px;">
+            <img src="../asset/find.png" alt="Sign up" height="200" width="220" style="padding-right:200px;">
+        </div>
+        <div id="persona">
+            <p style="padding-left:10%;">Edad:</p>
+            <input type="text" id="age" name="age"> <br />
+        </div>
+        <div style="margin-top:30px; margin-left:10%; font-weight:bold;">Caracteristicas del rostro de la persona</div> <br />
+
+        <!--Select de cabeza-->
+        <div>
+            <p style="padding-left:12%; font-weight:bold;">Cabeza</p>
+            <div id="leftSelect">
+                Forma:
+                <select style="margin-left:12px;" id="faceshape" name="faceshape">
+                    <option value="Redondo">Redondo</option>
+                    <option value="Cuadrado">Cuadrado</option>
+                    <option value="Triangular">Triangular</option>
+                    <option value="Ninguno">Ninguno</option>
+                </select>
+            </div>
+            <div>
+                Color:
+                <select style="margin-left:7%;" id="facecolor" name="facecolor">
+                    <option value="Amarillo">Amarillo</option>
+                    <option value="Blanco">Blanco</option>
+                    <option value="Moreno">Moreno</option>
+                </select>
+            </div>
+        </div>
+        <br /><br /><br />
+
+        <!--Select de ojo-->
+        <div>
+            <p style="padding-left:12%; font-weight:bold;">Ojo</p>
+            <div id="leftSelect">
+                Tipo:
+                <select style="margin-left:27px;" id="eyetype" name="eyetype">
+                    <option value="Normales">Normales</option>
+                    <option value="Juntos">Juntos</option>
+                    <option value="Mono parpado">Mono párpado</option>
+                    <option value="Separados">Separados</option>
+                    <option value="Saltones">Saltones</option>
+                </select>
+            </div>
+            <div>
+                Color:
+                <select style="margin-left:7%;" id="eyecolor" name="eyecolor">
+                    <option value="Blancos">Blancos</option>
+                    <option value="Negros">Negros</option>
+                    <option value="Grises">Grises</option>
+                    <option value="Verdes">Verdes</option>
+                    <option value="Amarillos">Amarillos</option>
+                    <option value="Cafe">Cafe</option>
+                </select>
+            </div>
+        </div>
+
+        <br /><br /><br />
+        <!--Boton summit-->
+        <div style="margin-left:10%;">
+            <button type="button" id="findPerson" value="Save" style="height:30px; width:100px;">Enviar!</button>
+        </div>
+    </form>
+</div>

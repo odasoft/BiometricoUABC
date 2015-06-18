@@ -1,0 +1,94 @@
+﻿<Window x:Class="PlayerUABC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="550" Width="725">
+    <Window.CommandBindings>        
+        <CommandBinding Command="MediaCommands.Play" CanExecute="Play_CanExecute" Executed="Play_Executed" />        
+        <CommandBinding Command="MediaCommands.PreviousTrack" CanExecute="Previous_CanExecute" Executed="Previous_Executed" />
+        <CommandBinding Command="MediaCommands.NextTrack" CanExecute="Next_CanExecute" Executed="Next_Executed" />                
+    </Window.CommandBindings>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+        <!--Stack panel para la lista de canciones-->
+        <StackPanel Name="vistaDeCanciones" Grid.Column="1" Grid.Row="0" Background="Chocolate">
+            <MediaElement x:Name="player" LoadedBehavior="Manual"></MediaElement>
+            <ListBox x:Name="songList" SelectionChanged="songList_SelectionChanged" ItemsSource="{Binding}" MouseDoubleClick="songList_MouseDoubleClick" MouseUp="songList_MouseUp">                
+            </ListBox>
+        </StackPanel>
+        <!--Stack panel para la barra de menú-->
+        <StackPanel Name="barraDeMenu" Grid.Column="0" Grid.Row="0" Orientation="Vertical" Background="DarkGray">
+            <Button Name="botonMenu" Margin="20,20,20,10" Background="Transparent" BorderBrush="Transparent">
+                <Image Source="Assets/menu.png"/>
+            </Button>
+            <Button Name="botonBusqueda" Margin="20,20,20,10" Background="Transparent" BorderBrush="Transparent">
+                <Image Source="Assets/busqueda.png"/>
+            </Button>
+            <Button Name="botonMiMusica" Margin="20,20,20,10" Background="Transparent" BorderBrush="Transparent">
+                <Image Source="Assets/mi_musica.png"/>
+            </Button>
+            <Button Name="botonEscuchando" Margin="20,20,20,10" Background="Transparent" BorderBrush="Transparent">
+                <Image Source="Assets/escuchando.png"/>
+            </Button>
+            <Button Name="botonNuevaLista" Margin="20,20,20,10" Background="Transparent" BorderBrush="Transparent" Click="botonNuevaLista_Click">
+                <Image Source="Assets/nueva_lista.png"/>
+            </Button>
+        </StackPanel>
+        <!--Stack panel para contener todos los elementos de la barra de reproduccion-->
+        <StackPanel Name="barraDeReproduccion" Grid.ColumnSpan="2" Orientation="Vertical" Background="Cyan" Grid.Row="1">
+            <Slider Name="sliderReproduccion" Thumb.DragStarted="sliderReproduccion_DragStarted"  Thumb.DragCompleted="sliderReproduccion_DragCompleted" ValueChanged="sliderReproduccion_ValueChanged"/>
+            <!--Stack panel para contener todos los botones de reproduccion-->
+            <StackPanel x:Name="menuDeReproduccion" Orientation="Horizontal"  Height="62">
+                <Button x:Name="botonAnterior" Command="MediaCommands.PreviousTrack" Margin="20,10,20,10" Background="Transparent" BorderBrush="Transparent" Height="43">
+                    <Image Source="Assets/anterior.png"/>
+                </Button>
+                <Button x:Name="botonPlay" Command="MediaCommands.Play" Margin="20,10,20,10" Background="Transparent" BorderBrush="Transparent" Height="43">
+                    <Image Name="play_pausa" Source="Assets/play.png"/>
+                </Button>
+                <Button x:Name="botonSiguiente" Command="MediaCommands.NextTrack" Margin="20,10,20,10" Background="Transparent" BorderBrush="Transparent" Height="43">
+                    <Image Source="Assets/siguiente.png" MouseUp="Image_MouseUp"/>
+                </Button>
+                <!--Stack panel para el boton volumen y el slider-->
+                <StackPanel x:Name="volumen" Margin="0,-90,0,0" Orientation="Vertical" Height="170" VerticalAlignment="Bottom" Width="116" Panel.ZIndex="101">
+                    <Slider x:Name="sliderVolumen"
+            			Margin="-5,60,-4,10"
+                        Thumb.DragStarted="sliderVolumen_DragStarted"                        
+            			ValueChanged="sliderVolumen_ValueChanged"
+            			Orientation="Horizontal"
+            			RenderTransformOrigin="0.5,0.5"
+            			BorderBrush="Black"
+            			BorderThickness="3"
+            			Width="100"
+            			Visibility="Hidden"
+                        Background="HotPink"
+            			MouseEnter="sliderVolumen_MouseEnter"
+            			MouseLeave="sliderVolumen_MouseLeave">
+                        <Slider.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Slider.RenderTransform>
+                    </Slider>
+                    <Button x:Name="botonVolumen" Margin="39,25,34,10" Background="Transparent" BorderBrush="Transparent" MouseEnter="botonVolumen_MouseEnter" MouseLeave="botonVolumen_MouseLeave" Height="43" Click="botonVolumen_Click">
+                        <Image Source="Assets/volumen.png" Width="40" Height="40"/>
+                    </Button>
+                </StackPanel>
+                <Button x:Name="botonAleatorio" Margin="20,10,20,10" Background="Transparent" BorderBrush="Transparent" Height="43" Click="botonAleatorio_Click">
+                    <Image Source="Assets/aleatorio.png"/>
+                </Button>
+                <Button x:Name="botonRepetir" Margin="20,10,20,10" Background="Transparent" BorderBrush="Transparent" Height="43" Click="botonRepetir_Click">
+                    <Image Source="Assets/repetir.png"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

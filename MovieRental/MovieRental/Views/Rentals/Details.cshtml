@@ -1,0 +1,58 @@
+﻿@model Models.Rental
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Rentas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Customers.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customers.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Movies.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Movies.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rental_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rental_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Due_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Due_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Overdue_Fee)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Overdue_Fee)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Regresar", "Index")
+</p>
