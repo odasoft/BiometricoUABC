@@ -1,0 +1,33 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" x:Name="Odavision_AdminScreens_navbar_Name"
+	mc:Ignorable="d"
+	x:Class="Odavision_AdminScreens.navbar"
+	Width="200" Height="325">
+
+	<Grid x:Name="LayoutRoot" Background="White" OpacityMask="Black">
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="325" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="200"/>
+		<StackPanel HorizontalAlignment="Left" Height="280" Margin="50,41,0,0" VerticalAlignment="Top" Width="148">
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Reportes" Foreground="#FF170C0C" Margin="0,10,0,0"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Informacion historica" Foreground="#FF060505"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Reconocimiento facial" Foreground="#FF110B0B" Margin="0,25,0,0"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Roles de Seguridad" Foreground="#FF110C0C"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Alertas por interes" Foreground="#FF170F0F" Margin="0,25,0,0" Height="25"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Clientes" Height="25" Foreground="#FF040202"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Margin="0" Text="Camaras" Foreground="#FF0A0303"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Establecimientos" Height="25" Foreground="#FF0F0A0A"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Personas de interes" Foreground="#FF0C0404"/>
+		</StackPanel>
+		<StackPanel HorizontalAlignment="Left" Height="19.4" VerticalAlignment="Top" Width="200">
+			<TextBlock HorizontalAlignment="Stretch" Style="{DynamicResource BodyCenter-Sketch}"><Run Text="Navegacion"/></TextBlock>
+		</StackPanel>
+		<StackPanel HorizontalAlignment="Left" Height="118" Margin="7,203,0,0" VerticalAlignment="Top" Width="38"/>
+		<TextBlock HorizontalAlignment="Left" Margin="19,178.243,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Gestion" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="19,32.4,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Informes" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="19,105.666,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Entrenamiento" VerticalAlignment="Top"/>
+		<StackPanel HorizontalAlignment="Left" Height="42.82" Margin="7,130.423,0,0" VerticalAlignment="Top" Width="35"/>
+		<StackPanel HorizontalAlignment="Left" Height="42.82" Margin="7,57.157,0,0" VerticalAlignment="Top" Width="35"/>
+	</Grid>
+</UserControl>

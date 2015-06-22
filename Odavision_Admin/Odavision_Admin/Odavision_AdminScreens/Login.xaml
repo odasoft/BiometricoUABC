@@ -1,0 +1,17 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" x:Name="Odavision_AdminScreens_Login_Name"
+	mc:Ignorable="d"
+	x:Class="Odavision_AdminScreens.Login"
+	Width="1366" Height="768">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="291.59" Margin="556.873,215.791,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="269.62"/>
+		<TextBlock HorizontalAlignment="Left" Height="36.709" Margin="619.5,238.791,0,0" Style="{DynamicResource TitleCenter-Sketch}" Text="Iniciar Sesion" VerticalAlignment="Top" Width="157.5" FontSize="32"/>
+		<TextBox HorizontalAlignment="Left" Height="29.5" Margin="619.5,307.5,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="Usuario" VerticalAlignment="Top" Width="162.5"/>
+		<TextBox HorizontalAlignment="Left" Height="29.5" Margin="619.5,350.5,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="Contrasena" VerticalAlignment="Top" Width="162.5"/>
+		<Button Content="Aceptar" HorizontalAlignment="Left" Height="26" Margin="649,400,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="99"/>
+	</Grid>
+</UserControl>

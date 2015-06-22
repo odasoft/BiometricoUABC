@@ -1,0 +1,29 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" x:Name="Odavision_AdminScreens_navbar2_Name"
+	mc:Ignorable="d"
+	x:Class="Odavision_AdminScreens.navbar2"
+	Width="1366" Height="50">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="50" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="1366"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="50" Margin="1168,0,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="198"/>
+		<StackPanel HorizontalAlignment="Left" Height="43" Margin="10,0,0,0" VerticalAlignment="Top" Width="180"/>
+		<TextBlock HorizontalAlignment="Left" Margin="1302.643,13,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Log out" VerticalAlignment="Top" Height="27">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.Index"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="1204.643,13,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Home" VerticalAlignment="Top" Height="27">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.Home"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</TextBlock>
+	</Grid>
+</UserControl>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odavision_Admin", "Odavision_Admin\Odavision_Admin.csproj", "{2F696EB3-52D9-42F2-AE36-A94FB00B1140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odavision_AdminScreens", "Odavision_Admin\Odavision_AdminScreens\Odavision_AdminScreens.csproj", "{2993C341-CC26-4C7A-8253-8455370A7B70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2993C341-CC26-4C7A-8253-8455370A7B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2993C341-CC26-4C7A-8253-8455370A7B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2993C341-CC26-4C7A-8253-8455370A7B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2993C341-CC26-4C7A-8253-8455370A7B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F696EB3-52D9-42F2-AE36-A94FB00B1140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F696EB3-52D9-42F2-AE36-A94FB00B1140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F696EB3-52D9-42F2-AE36-A94FB00B1140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F696EB3-52D9-42F2-AE36-A94FB00B1140}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

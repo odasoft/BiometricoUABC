@@ -1,0 +1,51 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Odavision_AdminScreens" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" x:Name="Odavision_AdminScreens_AddStore_Name"
+	mc:Ignorable="d"
+	x:Class="Odavision_AdminScreens.AddStore"
+	Width="1366" Height="768">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<local:navbar2 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,47,0,0"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="718" Margin="200,50,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="1166" d:IsLocked="True"/>
+		<ListBox HorizontalAlignment="Left" Height="124" Margin="236,138,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="268">
+			<ListBoxItem Content="Oxxo" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Oxxo" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Oxxo" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Oxxo" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Oxxo" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+		</ListBox>
+		<TextBlock HorizontalAlignment="Left" Height="33" Margin="236,100,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="111" Text="Franquicias" FontSize="26.667"/>
+		<ListBox HorizontalAlignment="Left" Height="124" Margin="684,138,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="268">
+			<ListBoxItem Content="Aguacaliente" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Sanchez Taboada" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Diaz Ordaz" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Ninguno" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Oxxo" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+		</ListBox>
+		<TextBlock HorizontalAlignment="Left" Height="33" Margin="684,100,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="111" Text="Boulevards" FontSize="26.667"/>
+		<TextBox HorizontalAlignment="Left" Height="39" Margin="684,356.83,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="(664)" VerticalAlignment="Top" Width="64" FontSize="21.333"/>
+		<TextBox HorizontalAlignment="Left" Height="39" Margin="771,356.83,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="XXX - XXXX" VerticalAlignment="Top" Width="181" FontSize="21.333"/>
+		<TextBlock HorizontalAlignment="Left" Height="33" Margin="684,300.33,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="87" Text="Teléfono" FontSize="26.667"/>
+		<ListBox HorizontalAlignment="Left" Height="124" Margin="236,323,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="268">
+			<ListBoxItem Content="Aguascalientes" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Baja California " Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Baja California Sua" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Campeche" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Chiapas" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+		</ListBox>
+		<TextBlock HorizontalAlignment="Left" Height="33" Margin="236,285,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="64" Text="Estado" FontSize="26.667"/>
+		<ListBox HorizontalAlignment="Left" Height="124" Margin="236,516.5,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="268">
+			<ListBoxItem Content="Tijuana" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Oxxo" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Oxxo" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Oxxo" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+			<ListBoxItem Content="Oxxo" Style="{DynamicResource ListBoxItem-Sketch}" FontSize="21.333"/>
+		</ListBox>
+		<TextBlock HorizontalAlignment="Left" Height="33" Margin="236,478.5,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="205" Text="Ciudad o Municipio" FontSize="26.667"/>
+		<Button Content="Agregar" HorizontalAlignment="Left" Height="49.5" Margin="771,449.328,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="109.5"/>
+	</Grid>
+</UserControl>
