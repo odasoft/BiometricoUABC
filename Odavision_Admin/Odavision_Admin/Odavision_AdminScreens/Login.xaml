@@ -9,9 +9,9 @@
 
 	<Grid x:Name="LayoutRoot" Background="White">
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="291.59" Margin="556.873,215.791,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="269.62"/>
-		<TextBlock HorizontalAlignment="Left" Height="36.709" Margin="619.5,238.791,0,0" Style="{DynamicResource TitleCenter-Sketch}" Text="Iniciar Sesion" VerticalAlignment="Top" Width="157.5" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="36.709" Margin="619.5,238.791,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="157.5" FontSize="32"><Run Text="Iniciar Sesi"/><Run Text="ó"/><Run Text="n"/></TextBlock>
 		<TextBox HorizontalAlignment="Left" Height="29.5" Margin="619.5,307.5,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="Usuario" VerticalAlignment="Top" Width="162.5"/>
-		<TextBox HorizontalAlignment="Left" Height="29.5" Margin="619.5,350.5,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="Contrasena" VerticalAlignment="Top" Width="162.5"/>
+		<TextBox HorizontalAlignment="Left" Height="29.5" Margin="619.5,350.5,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="Contraseña" VerticalAlignment="Top" Width="162.5"/>
 		<Button Content="Aceptar" HorizontalAlignment="Left" Height="26" Margin="649,400,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="99"/>
 	</Grid>
 </UserControl>

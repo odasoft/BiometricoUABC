@@ -46,8 +46,8 @@
       <FileName>navbar.xaml</FileName>
       <Annotations />
       <Position>
-        <X>172</X>
-        <Y>44</Y>
+        <X>303</X>
+        <Y>139</Y>
       </Position>
       <VisualTag>1</VisualTag>
     </Screen>
@@ -58,8 +58,8 @@
       <FileName>navbar2.xaml</FileName>
       <Annotations />
       <Position>
-        <X>361</X>
-        <Y>60</Y>
+        <X>520</X>
+        <Y>141</Y>
       </Position>
       <VisualTag>1</VisualTag>
     </Screen>
@@ -82,8 +82,32 @@
       <FileName>AddStore.xaml</FileName>
       <Annotations />
       <Position>
-        <X>539</X>
-        <Y>84</Y>
+        <X>667</X>
+        <Y>19</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.Screen_1</ClassName>
+      <DisplayName>ClientManagement</DisplayName>
+      <FileName>Screen_1.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>482</X>
+        <Y>-43</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.Screen_1_1</ClassName>
+      <DisplayName>PersonsManagement</DisplayName>
+      <FileName>Screen_1_1.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>488</X>
+        <Y>68</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -132,13 +156,6 @@
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
-      <Source>Odavision_AdminScreens.Home</Source>
-      <Target>Odavision_AdminScreens.StoresManagement</Target>
-      <Type>Navigation</Type>
-      <TransitionType>Fade</TransitionType>
-      <VisualTag>0</VisualTag>
-    </Connection>
-    <Connection>
       <Source>Odavision_AdminScreens.StoresManagement</Source>
       <Target>Odavision_AdminScreens.navbar2</Target>
       <Type>Composition</Type>
@@ -167,11 +184,81 @@
       <VisualTag>1</VisualTag>
     </Connection>
     <Connection>
+      <Source>Odavision_AdminScreens.Screen_1</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Screen_1</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Screen_1_1</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Screen_1_1</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.navbar</Source>
+      <Target>Odavision_AdminScreens.Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.navbar</Source>
+      <Target>Odavision_AdminScreens.StoresManagement</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.navbar</Source>
+      <Target>Odavision_AdminScreens.Screen_1_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
       <Source>Odavision_AdminScreens.AddStore</Source>
       <Target>Odavision_AdminScreens.navbar</Target>
       <Type>Composition</Type>
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Home</Source>
+      <Target>Odavision_AdminScreens.Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Home</Source>
+      <Target>Odavision_AdminScreens.StoresManagement</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Home</Source>
+      <Target>Odavision_AdminScreens.Screen_1_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
     </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
@@ -218,10 +305,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.8</Zoom>
+    <Zoom>1.25</Zoom>
     <Center>
-      <X>309.18475880067678</X>
-      <Y>43.056203258547015</Y>
+      <X>353.38057699385746</X>
+      <Y>12.817614332820817</Y>
     </Center>
   </ViewState>
 </Data>

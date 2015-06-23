@@ -72,6 +72,12 @@
     <Compile Include="Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Screen_1.xaml.cs">
+      <DependentUpon>Screen_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screen_1_1.xaml.cs">
+      <DependentUpon>Screen_1_1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StoresManagement.xaml.cs">
       <DependentUpon>StoresManagement.xaml</DependentUpon>
     </Compile>
@@ -96,6 +102,14 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="navbar2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen_1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Screen_1_1.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

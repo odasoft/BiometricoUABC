@@ -2,54 +2,48 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Odavision_AdminScreens" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="Odavision_AdminScreens_StoresManagement_Name"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Odavision_AdminScreens" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" x:Name="Odavision_AdminScreens_Screen_1_1_Name"
 	mc:Ignorable="d"
-	x:Class="Odavision_AdminScreens.StoresManagement"
+	x:Class="Odavision_AdminScreens.Screen_1_1"
 	Width="1366" Height="768">
 
 	<Grid x:Name="LayoutRoot" Background="White">
+		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,49.5,0,0"/>
 		<local:navbar2 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
-		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,49.565,0,0"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="718" Margin="198.5,49.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="1166"/>
-		<TextBlock HorizontalAlignment="Left" Height="47" Margin="554,55,0,0" Style="{DynamicResource TitleCenter-Sketch}" Text="Gestion de Establecimientos" VerticalAlignment="Top" Width="430"/>
+		<TextBlock HorizontalAlignment="Left" Height="47" Margin="538.801,55,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="445.199"><Run Text="Gesti"/><Run Text="ó"/><Run Text="n de "/><Run Text="Personas de Inter"/><Run Text="é"/><Run Text="s"/></TextBlock>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="205,119,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="507"/>
-		<TextBlock HorizontalAlignment="Left" Height="35" Margin="226,134,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Agregar Establecimiento" VerticalAlignment="Top" Width="267" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="35" Margin="226,134,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="267" FontSize="32" Text="Agregar Persona"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="205,312,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
-		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,333.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Oxxo" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,333.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Persona 1" VerticalAlignment="Top" Width="239" FontSize="32"/>
 		<TextBlock HorizontalAlignment="Left" Height="52" Margin="520,321.565,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="343" FontSize="24"><Run Text="Ubicacion: Blvd Aguacalidente, XXXX, ...."/><LineBreak/><Run Text="Telefono: (664) XXX - XXXX"/></TextBlock>
-		<Image Margin="520,127,786,581" Source="add_item - Copy.png" Stretch="Fill">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.AddStore"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Image>
+		<Image Margin="520,127,786,581" Source="add_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="910.5,318.565,395.5,389.435" Source="edit_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="996,318.565,310,389.435" Source="remove_item - Copy.png" Stretch="Fill"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="84" Margin="207,210,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="1149"/>
-		<ComboBox HorizontalAlignment="Left" Height="51" Margin="320,225,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="189.808">
+		<ComboBox HorizontalAlignment="Left" Height="51" Margin="302,225,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="145">
 			<ComboBoxItem Content="Oxxo"/>
 			<ComboBoxItem Content="Farmacia"/>
 		</ComboBox>
-		<TextBlock HorizontalAlignment="Left" Height="36" Margin="226,225,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Cliente" VerticalAlignment="Top" Width="177.5" FontSize="32"/>
-		<TextBlock HorizontalAlignment="Left" Height="36" Margin="538.801,225,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Estado" VerticalAlignment="Top" Width="81.199" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="216,227,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Cliente" VerticalAlignment="Top" Width="177.5" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="464.801,225,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Estado" VerticalAlignment="Top" Width="81.199" FontSize="32"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="205,381,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
-		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,402.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Oxxo" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,402.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Persona 2" VerticalAlignment="Top" Width="239" FontSize="32"/>
 		<TextBlock HorizontalAlignment="Left" Height="52" Margin="520,390.565,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="343" FontSize="24"><Run Text="Ubicacion: Blvd Diaz Ordaz, XXXX, ...."/><LineBreak/><Run Text="Telefono: (664) XXX - XXXX"/></TextBlock>
 		<Image Margin="910.5,387.565,395.5,320.435" Source="edit_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="996,387.565,310,320.435" Source="remove_item - Copy.png" Stretch="Fill"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="205,450,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
-		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,471.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Oxxo" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,471.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Persona 3" VerticalAlignment="Top" Width="239" FontSize="32"/>
 		<TextBlock HorizontalAlignment="Left" Height="52" Margin="520,459.565,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="343" FontSize="24"><Run Text="Ubicacion: Blvd Aguacalidente, XXXX, ...."/><LineBreak/><Run Text="Telefono: (664) XXX - XXXX"/></TextBlock>
 		<Image Margin="910.5,456.565,395.5,251.435" Source="edit_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="996,456.565,310,251.435" Source="remove_item - Copy.png" Stretch="Fill"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="205,519,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
-		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,540.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Oxxo" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,540.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Persona 4" VerticalAlignment="Top" Width="239" FontSize="32"/>
 		<TextBlock HorizontalAlignment="Left" Height="52" Margin="520,528.565,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="343" FontSize="24"><Run Text="Ubicacion: Blvd Diaz Ordaz, XXXX, ...."/><LineBreak/><Run Text="Telefono: (664) XXX - XXXX"/></TextBlock>
 		<Image Margin="910.5,525.565,395.5,182.435" Source="edit_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="996,525.565,310,182.435" Source="remove_item - Copy.png" Stretch="Fill"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="205,580,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
-		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,601.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Oxxo" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,601.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Persona 5" VerticalAlignment="Top" Width="239" FontSize="32"/>
 		<TextBlock HorizontalAlignment="Left" Height="52" Margin="520,589.565,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="343" FontSize="24"><Run Text="Ubicacion: Blvd Aguacalidente, XXXX, ...."/><LineBreak/><Run Text="Telefono: (664) XXX - XXXX"/></TextBlock>
 		<Image Margin="910.5,586.565,395.5,121.435" Source="edit_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="996,586.565,310,121.435" Source="remove_item - Copy.png" Stretch="Fill"/>
@@ -59,24 +53,29 @@
 		<Image Margin="910.5,655.565,395.5,52.435" Source="edit_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="996,655.565,310,52.435" Source="remove_item - Copy.png" Stretch="Fill"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="205,581,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
-		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,602.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Oxxo" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,602.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Persona 5" VerticalAlignment="Top" Width="239" FontSize="32"/>
 		<TextBlock HorizontalAlignment="Left" Height="52" Margin="520,590.565,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="343" FontSize="24"><Run Text="Ubicacion: Blvd Aguacalidente, XXXX, ...."/><LineBreak/><Run Text="Telefono: (664) XXX - XXXX"/></TextBlock>
 		<Image Margin="910.5,587.565,395.5,120.435" Source="edit_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="996,587.565,310,120.435" Source="remove_item - Copy.png" Stretch="Fill"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="205,650,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
-		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,670.065,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Oxxo" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,670.065,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Persona 6" VerticalAlignment="Top" Width="239" FontSize="32"/>
 		<TextBlock HorizontalAlignment="Left" Height="52" Margin="520,659.565,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="343" FontSize="24"><Run Text="Ubicacion: Blvd Diaz Ordaz, XXXX, ...."/><LineBreak/><Run Text="Telefono: (664) XXX - XXXX"/></TextBlock>
 		<Image Margin="910.5,656.565,395.5,51.435" Source="edit_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="996,656.565,310,51.435" Source="remove_item - Copy.png" Stretch="Fill"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="42.435" Margin="400.667,725.565,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="403.333"/>
 		<TextBlock HorizontalAlignment="Left" Height="26" Margin="561.333,732,0,0" Style="{DynamicResource TextBlock-Sketch}" Text=" &lt; 1 2 3 4 5 6 7 8 &gt;" VerticalAlignment="Top" Width="112"/>
-		<Button Content="Filtrar" HorizontalAlignment="Left" Height="51" Margin="1196.772,225,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="112" FontSize="32"/>
-		<TextBlock HorizontalAlignment="Left" Height="36" Margin="855.513,225,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Ciudad" VerticalAlignment="Top" Width="81.199" FontSize="32"/>
-		<ComboBox HorizontalAlignment="Left" Height="51" Margin="635.192,225,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="189.808">
+		<Button Content="Filtrar" HorizontalAlignment="Left" Height="51" Margin="1236.772,225,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="112" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="715.513,225,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Ciudad" VerticalAlignment="Top" Width="81.199" FontSize="32"/>
+		<ComboBox HorizontalAlignment="Left" Height="51" Margin="552,225,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="145">
 			<ComboBoxItem Content="Oxxo"/>
 			<ComboBoxItem Content="Farmacia"/>
 		</ComboBox>
-		<ComboBox HorizontalAlignment="Left" Height="51" Margin="954.5,225,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="189.808">
+		<ComboBox HorizontalAlignment="Left" Height="51" Margin="800,225,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="145">
+			<ComboBoxItem Content="Oxxo"/>
+			<ComboBoxItem Content="Farmacia"/>
+		</ComboBox>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="967.513,225,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Sucursal" VerticalAlignment="Top" Width="102.487" FontSize="32"/>
+		<ComboBox HorizontalAlignment="Left" Height="51" Margin="1078,225,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="145">
 			<ComboBoxItem Content="Oxxo"/>
 			<ComboBoxItem Content="Farmacia"/>
 		</ComboBox>
