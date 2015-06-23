@@ -60,6 +60,9 @@
     <Reference Include="Microsoft.Expression.Prototyping.SketchControls" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddPerson.xaml.cs">
+      <DependentUpon>AddPerson.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AddStore.xaml.cs">
       <DependentUpon>AddStore.xaml</DependentUpon>
     </Compile>
@@ -81,6 +84,10 @@
     <Compile Include="StoresManagement.xaml.cs">
       <DependentUpon>StoresManagement.xaml</DependentUpon>
     </Compile>
+    <Page Include="AddPerson.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="AddStore.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

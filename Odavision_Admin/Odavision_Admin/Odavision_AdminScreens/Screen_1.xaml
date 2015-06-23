@@ -2,28 +2,45 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Odavision_AdminScreens" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" x:Name="Odavision_AdminScreens_Screen_1_Name"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Odavision_AdminScreens" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="Odavision_AdminScreens_Screen_1_Name"
 	mc:Ignorable="d"
 	x:Class="Odavision_AdminScreens.Screen_1"
 	Width="1366" Height="768">
 
 	<Grid x:Name="LayoutRoot" Background="White">
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="718.5" Margin="200,49.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="1166" d:IsLocked="True"/>
 		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,49.5,0,0"/>
 		<local:navbar2 HorizontalAlignment="Left" Margin="0,0,-726,0" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
-		<Button Content="Agregar" HorizontalAlignment="Left" Height="49.5" Margin="211.5,435.5,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="109.5"/>
-		<TextBox HorizontalAlignment="Left" Height="39" Margin="211.5,373,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="XXX - XXXX" VerticalAlignment="Top" Width="268" FontSize="21.333"/>
-		<TextBlock HorizontalAlignment="Left" Height="33" Margin="211.5,335,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="79" Text="Nombre" FontSize="26.667"/>
-		<Button Content="Regresar" HorizontalAlignment="Left" Height="49.5" Margin="370,435.5,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="109.5"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="205,168,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
-		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,189.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Oxxo" VerticalAlignment="Top" Width="239" FontSize="32"/>
-		<Image Margin="910.5,174.565,395.5,533.435" Source="edit_item - Copy.png" Stretch="Fill"/>
-		<Image Margin="996,174.565,310,533.435" Source="remove_item - Copy.png" Stretch="Fill"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="205,238.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
-		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,260.065,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Roma" VerticalAlignment="Top" Width="239" FontSize="32"/>
-		<Image Margin="910.5,245.065,395.5,462.935" Source="edit_item - Copy.png" Stretch="Fill"/>
-		<Image Margin="996,245.065,310,462.935" Source="remove_item - Copy.png" Stretch="Fill"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="42.435" Margin="400.667,515.565,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="403.333"/>
-		<TextBlock HorizontalAlignment="Left" Height="26" Margin="561.333,522,0,0" Style="{DynamicResource TextBlock-Sketch}" Text=" &lt; 1 2 3 4 5 6 7 8 &gt;" VerticalAlignment="Top" Width="112"/>
+		<TextBox HorizontalAlignment="Left" Height="56.672" Margin="223,130.328,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="278.5" FontSize="32" TextChanged="TextBox_TextChanged" Text="Nombre del cliente"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="223,302,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="244,323.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Oxxo" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<Image Margin="928.5,308.565,377.5,399.435" Source="edit_item - Copy.png" Stretch="Fill"/>
+		<Image Margin="1014,308.565,292,399.435" Source="remove_item - Copy.png" Stretch="Fill"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="223,372.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="244,394.065,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Roma" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<Image Margin="928.5,379.065,377.5,328.935" Source="edit_item - Copy.png" Stretch="Fill"/>
+		<Image Margin="1014,379.065,292,328.935" Source="remove_item - Copy.png" Stretch="Fill"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="42.435" Margin="434.667,681.565,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="403.333"/>
+		<TextBlock HorizontalAlignment="Left" Height="26" Margin="595.333,688,0,0" Style="{DynamicResource TextBlock-Sketch}" Text=" &lt; 1 2 3 4 5 6 7 8 &gt;" VerticalAlignment="Top" Width="112"/>
 		<TextBlock HorizontalAlignment="Left" Height="47" Margin="538.801,55,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="445.199"><Run Text="Gesti"/><Run Text="ó"/><Run Text="n de "/><Run Text="Clientes"/></TextBlock>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="223,441.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="244,463.065,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Oxxo" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<Image Margin="928.5,448.065,377.5,259.935" Source="edit_item - Copy.png" Stretch="Fill"/>
+		<Image Margin="1014,448.065,292,259.935" Source="remove_item - Copy.png" Stretch="Fill"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="70.565" Margin="223,512,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="885.5"/>
+		<TextBlock HorizontalAlignment="Left" Height="40" Margin="244,533.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Roma" VerticalAlignment="Top" Width="239" FontSize="32"/>
+		<Image Margin="928.5,518.565,377.5,189.435" Source="edit_item - Copy.png" Stretch="Fill"/>
+		<Image Margin="1014,518.565,292,189.435" Source="remove_item - Copy.png" Stretch="Fill"/>
+		<Image Margin="520,127,786,581" Source="add_item - Copy.png" Stretch="Fill">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.Screen_1_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Image>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="84" Margin="223.497,202.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="483.836"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="242.497,217.5,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Cliente" VerticalAlignment="Top" Width="177.5" FontSize="32"/>
+		<Button Content="Filtrar" HorizontalAlignment="Left" Height="51" Margin="575.769,217.5,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="112" FontSize="32"/>
+		<TextBox HorizontalAlignment="Left" Height="51" Margin="348,217.5,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
 	</Grid>
 </UserControl>

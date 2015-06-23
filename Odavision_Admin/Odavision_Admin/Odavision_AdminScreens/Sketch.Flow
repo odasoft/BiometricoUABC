@@ -111,6 +111,18 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.AddPerson</ClassName>
+      <DisplayName>AddPerson</DisplayName>
+      <FileName>AddPerson.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>668</X>
+        <Y>100</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -260,6 +272,41 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Screen_1</Source>
+      <Target>Odavision_AdminScreens.AddStore</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Screen_1</Source>
+      <Target>Odavision_AdminScreens.Screen_1_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Screen_1_1</Source>
+      <Target>Odavision_AdminScreens.AddPerson</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.AddPerson</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.AddPerson</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -305,10 +352,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1.25</Zoom>
+    <Zoom>1</Zoom>
     <Center>
-      <X>353.38057699385746</X>
-      <Y>12.817614332820817</Y>
+      <X>627.645954138975</X>
+      <Y>-39</Y>
     </Center>
   </ViewState>
 </Data>

@@ -14,23 +14,29 @@
 			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Informacion historica" Foreground="#FF060505"/>
 			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Reconocimiento facial" Foreground="#FF110B0B" Margin="0,25,0,0"/>
 			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Roles de Seguridad" Foreground="#FF110C0C"/>
-			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Alertas por interes" Foreground="#FF170F0F" Margin="0,25,0,0" Height="25"/>
-			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Clientes" Height="25" Foreground="#FF040202">
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Alertas por interes" Foreground="#FF170F0F" Margin="0,25,0,0" Height="25" Cursor="Hand">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseLeftButtonDown">
+						<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.Screen_1_1"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</TextBlock>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Clientes" Height="25" Foreground="#FF040202" Cursor="Hand">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="MouseLeftButtonDown">
 						<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.Screen_1"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</TextBlock>
-			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Margin="0" Text="Camaras" Foreground="#FF0A0303"/>
-			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Establecimientos" Height="25" Foreground="#FF0F0A0A">
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Margin="0" Text="Camaras" Foreground="#FF0A0303" Cursor="Hand"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Establecimientos" Height="25" Foreground="#FF0F0A0A" Cursor="Hand">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="MouseLeftButtonDown">
 						<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.StoresManagement"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</TextBlock>
-			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Personas de interes" Foreground="#FF0C0404">
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Personas de interes" Foreground="#FF0C0404" Cursor="Hand">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="MouseLeftButtonDown">
 						<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.Screen_1_1"/>

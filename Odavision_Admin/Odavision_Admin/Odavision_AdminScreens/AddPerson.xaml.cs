@@ -14,16 +14,21 @@ using System.Windows.Shapes;
 namespace Odavision_AdminScreens
 {
 	/// <summary>
-	/// Interaction logic for Screen_1.xaml
+	/// Interaction logic for AddPerson.xaml
 	/// </summary>
-	public partial class Screen_1 : UserControl
+	public partial class AddPerson : UserControl
 	{
-		public Screen_1()
+		public AddPerson()
 		{
 			this.InitializeComponent();
 		}
 
-		private void TextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+		private void CheckBox_Checked(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+		}
+
+		private void RadioButton_Checked(object sender, System.Windows.RoutedEventArgs e)
 		{
 			// TODO: Add event handler implementation here.
 		}
