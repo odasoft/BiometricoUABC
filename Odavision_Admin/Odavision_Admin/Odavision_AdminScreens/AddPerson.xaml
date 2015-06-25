@@ -10,9 +10,9 @@
 	<Grid x:Name="LayoutRoot" Background="White">
 		<local:navbar2 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
 		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,49,0,0"/>
-		<ScrollViewer HorizontalAlignment="Left" Height="719" Margin="200,37,0,0" Style="{DynamicResource ScrollViewer-Sketch}" VerticalAlignment="Top" Width="1166" Background="White">
+		<ScrollViewer HorizontalAlignment="Left" Height="719" Margin="200,50,0,-1" Style="{DynamicResource ScrollViewer-Sketch}" VerticalAlignment="Top" Width="1166" Background="White">
 			<Grid Height="709" Width="1177">
-				<TextBlock HorizontalAlignment="Left" Height="47" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="445.199" Margin="349,10,0,0"><Run Text="Añadir Tienda"/></TextBlock>
+				<TextBlock HorizontalAlignment="Left" Height="47" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="445.199" Margin="349,10,0,0"><Run Text="Añadir "/><Run Text="Persona"/><LineBreak/><Run/></TextBlock>
 				<Button Content="Agregar foto" HorizontalAlignment="Left" Margin="319.5,304.694,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="162" Height="47.463"/>
 				<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="319.5,99.694,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
 				<TextBlock HorizontalAlignment="Left" Margin="74.199,99.613,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Genero" FontSize="24"/>
@@ -76,6 +76,29 @@
 				</ListBox>
 				<TextBox HorizontalAlignment="Left" Height="81.153" Margin="829.67,468.707,0,0" Style="{DynamicResource Note-Sketch}" TextWrapping="Wrap" Text="Multiple seleccion en la perforacion" VerticalAlignment="Top" Width="200"/>
 				<TextBox HorizontalAlignment="Left" Height="105.153" Margin="740,41.684,0,0" Style="{DynamicResource Note-Sketch}" TextWrapping="Wrap" Text="Seleccionando el tuerco aparecera el radio button de izq/der" VerticalAlignment="Top" Width="200"/>
+				<TextBlock HorizontalAlignment="Left" Margin="74.199,433.209,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Incidente" FontSize="24"/>
+				<TextBox HorizontalAlignment="Left" Height="51" Margin="74.199,468.707,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+				<TextBlock HorizontalAlignment="Left" Margin="74.199,529.209,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" FontSize="24" Width="138.801"><Run Text="Establecimient"/><Run Text="o"/></TextBlock>
+				<ComboBox HorizontalAlignment="Left" Height="40" Margin="74.199,558.846,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="178">
+					<ComboBoxItem Content="Seleccione un Cliente" IsSelected="True"/>
+				</ComboBox>
+				<ComboBox HorizontalAlignment="Left" Height="40" Margin="267,558.846,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="178">
+					<ComboBoxItem Content="Seleccione el Estado" IsSelected="True"/>
+				</ComboBox>
+				<ComboBox HorizontalAlignment="Left" Height="40" Margin="74.199,616,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="178">
+					<ComboBoxItem Content="Seleccione una Ciudad" IsSelected="True"/>
+				</ComboBox>
+				<ComboBox HorizontalAlignment="Left" Height="40" Margin="267,616,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="178">
+					<ComboBoxItem Content="Seleccione un Establecimiento" IsSelected="True"/>
+				</ComboBox>
+				<Button Content="Agregar" HorizontalAlignment="Left" Height="49.5" Margin="598.5,616,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="109.5"/>
+				<Button Content="Regresar" HorizontalAlignment="Left" Height="49.5" Margin="757,616,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="109.5">
+					<i:Interaction.Triggers>
+						<i:EventTrigger EventName="Click">
+							<pi:NavigateBackAction/>
+						</i:EventTrigger>
+					</i:Interaction.Triggers>
+				</Button>
 			</Grid>
 		</ScrollViewer>
 	</Grid>

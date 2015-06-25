@@ -123,6 +123,30 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.CamaraManagement</ClassName>
+      <DisplayName>CameraManagement</DisplayName>
+      <FileName>CamaraManagement.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>481</X>
+        <Y>-108</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.AddPerson2</ClassName>
+      <DisplayName>AddPerson2</DisplayName>
+      <FileName>AddPerson2.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>799</X>
+        <Y>102</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -307,6 +331,34 @@
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
     </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.CamaraManagement</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.CamaraManagement</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.navbar</Source>
+      <Target>Odavision_AdminScreens.CamaraManagement</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.AddPerson</Source>
+      <Target>Odavision_AdminScreens.AddPerson2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -352,10 +404,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1</Zoom>
+    <Zoom>1.125</Zoom>
     <Center>
-      <X>627.645954138975</X>
-      <Y>-39</Y>
+      <X>512.96400396130355</X>
+      <Y>107.14604759718397</Y>
     </Center>
   </ViewState>
 </Data>

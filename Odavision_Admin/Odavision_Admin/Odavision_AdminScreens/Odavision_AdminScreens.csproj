@@ -63,8 +63,14 @@
     <Compile Include="AddPerson.xaml.cs">
       <DependentUpon>AddPerson.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddPerson2.xaml.cs">
+      <DependentUpon>AddPerson2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AddStore.xaml.cs">
       <DependentUpon>AddStore.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CamaraManagement.xaml.cs">
+      <DependentUpon>CamaraManagement.xaml</DependentUpon>
     </Compile>
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
@@ -88,7 +94,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="AddPerson2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="AddStore.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CamaraManagement.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

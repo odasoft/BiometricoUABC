@@ -28,7 +28,13 @@
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</TextBlock>
-			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Margin="0" Text="Camaras" Foreground="#FF0A0303" Cursor="Hand"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Margin="0" Text="Camaras" Foreground="#FF0A0303" Cursor="Hand">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseLeftButtonDown">
+						<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.CamaraManagement"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</TextBlock>
 			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Establecimientos" Height="25" Foreground="#FF0F0A0A" Cursor="Hand">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="MouseLeftButtonDown">

@@ -1,0 +1,49 @@
+Persona de Interes
+
+Name
+LastName
+Genre
+public virtual ICollection<PersonOfInterestEventLog> PersonOfInterestEventLog
+public virtual ICollection<Incidence> Incidents
+public virtual ICollection<TrainingImage> TrainingImages
+
+
+PersonOfInteresEventLog
+
+ public class PersonOfInterestEventLog
+    {
+        public int Id { get; set; }
+        public int PersonOfInterestId { get; set; }
+        public int EstablishmentId { get; set; }
+        public DateTime Date { get; set; }
+
+        public virtual PersonOfInterest PersonOfInterest { get; set; }
+        public virtual Establishment Establishment { get; set; }
+        public virtual ICollection<Image> Images { get; set; }
+    }
+
+
+Incidence
+
+ public int Id { get; set; }
+        public DateTime Date { get; set; }
+        public string Crime { get; set; }
+        public string AscertainmentNumer { get; set; }
+        public int AgencyId { get; set; }
+        public int PersonOfInterestId { get; set; }
+        public int EstablishmentId { get; set; }
+
+        public virtual PersonOfInterest PersonOfInterest { get; set; }
+        public virtual Establishment Establishment { get; set; }
+        public virtual Agency Agency { get; set; }
+
+
+TrainingImage
+
+  public int Id { get; set; }
+        public string Path { get; set; }
+        public DateTime DateAdded { get; set; }
+        public DateTime DateTaken { get; set; }
+        public int PersonOfInterestId { get; set; }
+
+        public virtual PersonOfInterest PersonOfInterest { get; set; }

@@ -42,5 +42,6 @@
 		<TextBlock HorizontalAlignment="Left" Height="36" Margin="242.497,217.5,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Cliente" VerticalAlignment="Top" Width="177.5" FontSize="32"/>
 		<Button Content="Filtrar" HorizontalAlignment="Left" Height="51" Margin="575.769,217.5,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="112" FontSize="32"/>
 		<TextBox HorizontalAlignment="Left" Height="51" Margin="348,217.5,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+		<Button Content="Cargar imagen" HorizontalAlignment="Left" Height="51" Margin="604.269,135,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="175.731" FontSize="32"/>
 	</Grid>
 </UserControl>
