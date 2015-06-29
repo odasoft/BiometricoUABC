@@ -46,8 +46,8 @@
       <FileName>navbar.xaml</FileName>
       <Annotations />
       <Position>
-        <X>303</X>
-        <Y>139</Y>
+        <X>302</X>
+        <Y>135</Y>
       </Position>
       <VisualTag>1</VisualTag>
     </Screen>
@@ -161,6 +161,7 @@
     </Screen>
     <Screen>
       <Type>Navigation</Type>
+<<<<<<< HEAD
       <ClassName>Odavision_AdminScreens.HistoricInformation</ClassName>
       <DisplayName>HistoricInformation</DisplayName>
       <FileName>HistoricInformation.xaml</FileName>
@@ -180,6 +181,15 @@
       <Position>
         <X>324</X>
         <Y>-159</Y>
+=======
+      <ClassName>Odavision_AdminScreens.Alert</ClassName>
+      <DisplayName>Alert</DisplayName>
+      <FileName>Alert.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>794</X>
+        <Y>19</Y>
+>>>>>>> origin/master
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -452,20 +462,29 @@
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
+<<<<<<< HEAD
       <Source>Odavision_AdminScreens.HistoricInformation</Source>
+=======
+      <Source>Odavision_AdminScreens.Alert</Source>
+>>>>>>> origin/master
       <Target>Odavision_AdminScreens.navbar</Target>
       <Type>Composition</Type>
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
     </Connection>
     <Connection>
+<<<<<<< HEAD
       <Source>Odavision_AdminScreens.HistoricInformation</Source>
+=======
+      <Source>Odavision_AdminScreens.Alert</Source>
+>>>>>>> origin/master
       <Target>Odavision_AdminScreens.navbar2</Target>
       <Type>Composition</Type>
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
     </Connection>
     <Connection>
+<<<<<<< HEAD
       <Source>Odavision_AdminScreens.Home</Source>
       <Target>Odavision_AdminScreens.HistoricInformation</Target>
       <Type>Navigation</Type>
@@ -475,11 +494,16 @@
     <Connection>
       <Source>Odavision_AdminScreens.HistoricInformation</Source>
       <Target>Odavision_AdminScreens.HistoricInformationPerson</Target>
+=======
+      <Source>Odavision_AdminScreens.navbar</Source>
+      <Target>Odavision_AdminScreens.Alert</Target>
+>>>>>>> origin/master
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
+<<<<<<< HEAD
       <Source>Odavision_AdminScreens.HistoricInformationPerson</Source>
       <Target>Odavision_AdminScreens.navbar</Target>
       <Type>Composition</Type>
@@ -496,6 +520,10 @@
     <Connection>
       <Source>Odavision_AdminScreens.navbar</Source>
       <Target>Odavision_AdminScreens.HistoricInformation</Target>
+=======
+      <Source>Odavision_AdminScreens.Alert</Source>
+      <Target>Odavision_AdminScreens.Screen_1_1</Target>
+>>>>>>> origin/master
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -545,10 +573,17 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
+<<<<<<< HEAD
     <Zoom>0.66666666666666663</Zoom>
     <Center>
       <X>350.6799631384942</X>
       <Y>53.713073024277065</Y>
+=======
+    <Zoom>0.75</Zoom>
+    <Center>
+      <X>606.07407407407413</X>
+      <Y>38.3674624963239</Y>
+>>>>>>> origin/master
     </Center>
   </ViewState>
 </Data>
