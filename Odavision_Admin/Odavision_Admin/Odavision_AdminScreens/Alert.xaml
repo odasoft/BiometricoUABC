@@ -1,0 +1,46 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Odavision_AdminScreens" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Name="Odavision_AdminScreens_Alert_Name"
+	mc:Ignorable="d"
+	x:Class="Odavision_AdminScreens.Alert"
+	Width="1366" Height="768">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,48,0,0"/>
+		<local:navbar2 HorizontalAlignment="Left" Margin="0,0,-726,0" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="718" Margin="200,49,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="1166"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="442.5" Margin="262.999,262.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="1039.5"/>
+		<TextBlock HorizontalAlignment="Left" Height="26" Margin="719.333,732,0,0" Style="{DynamicResource TextBlock-Sketch}" Text=" &lt; 1 2 3 4 5 6 7 8 &gt;" VerticalAlignment="Top" Width="112"/>
+		<TextBox HorizontalAlignment="Left" Height="46" Margin="261.499,159.334,0,0" Padding="10,10,10,10" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="Nombre de la persona de interes" VerticalAlignment="Top" Width="243.333"/>
+		<Button Content="Search" HorizontalAlignment="Left" Height="46" Margin="503.498,159.334,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="68.667"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="189" Margin="319.5,291.5,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="165"/>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="619.5,351.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Juan Zheng Wu" VerticalAlignment="Top" Width="243"/>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="619.5,369.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="23" VerticalAlignment="Top" Width="243"/>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="619.5,387.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Masculino" VerticalAlignment="Top" Width="243"/>
+		<TextBlock HorizontalAlignment="Left" Height="75" Margin="619.5,405.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Robó un Oxxo sucursal #3128 col. Centro" VerticalAlignment="Top" Width="243"/>
+		<TextBlock HorizontalAlignment="Left" Height="54" Margin="644,77.197,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Alertas por interés" VerticalAlignment="Top" Width="352" FontSize="48" FontWeight="Bold"/>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="543.5,351.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Nombre:" VerticalAlignment="Top" Width="58"/>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="543.5,369.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Edad:" VerticalAlignment="Top" Width="58"/>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="543.5,387.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Genero:" VerticalAlignment="Top" Width="58"/>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="543.5,405.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Incidente:" VerticalAlignment="Top" Width="58"/>
+		<TextBlock HorizontalAlignment="Left" Margin="978,297.656,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Alertados" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="543.5,297.656,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Persona de interés" VerticalAlignment="Top"/>
+		<ListBox HorizontalAlignment="Left" Height="344.5" Margin="978,334.5,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="278.5">
+			<ListBoxItem Content="Laura Hernandez&#xD;&#xA;Tel. 664-1111-111&#xD;&#xA;E-mail: example@gmail.com" Style="{DynamicResource ListBoxItem-Sketch}" Height="99.963"/>
+			<ListBoxItem Content="Laura Hernandez&#xA;Tel. 664-1111-111&#xA;E-mail: example@gmail.com" Style="{DynamicResource ListBoxItem-Sketch}" Height="99.963"/>
+			<ListBoxItem Content="Laura Hernandez&#xA;Tel. 664-1111-111&#xA;E-mail: example@gmail.com" Style="{DynamicResource ListBoxItem-Sketch}" Height="99.963"/>
+			<ListBoxItem Content="Laura Hernandez&#xA;Tel. 664-1111-111&#xA;E-mail: example@gmail.com" Style="{DynamicResource ListBoxItem-Sketch}" Height="99.963"/>
+			<ListBoxItem Content="Laura Hernandez&#xA;Tel. 664-1111-111&#xA;E-mail: example@gmail.com" Style="{DynamicResource ListBoxItem-Sketch}" Height="99.963"/>
+		</ListBox>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="319.5,522.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Nombre:" VerticalAlignment="Top" Width="58"/>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="319.5,560.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Telefono:" VerticalAlignment="Top" Width="58"/>
+		<TextBlock HorizontalAlignment="Left" Height="18" Margin="319.5,601.5,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" Text="Correo Electrónico:" VerticalAlignment="Top" Width="115"/>
+		<TextBox HorizontalAlignment="Left" Height="18" Margin="438.5,522.5,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="167"/>
+		<TextBox HorizontalAlignment="Left" Height="18" Margin="438.5,562.347,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="167"/>
+		<TextBox HorizontalAlignment="Left" Height="18" Margin="438.5,601.947,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="167"/>
+		<Button Content="Add" HorizontalAlignment="Left" Height="21" Margin="319.5,642,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="58"/>
+		<Button Content="Delete" HorizontalAlignment="Left" Height="21" Margin="399,642,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="58"/>
+	</Grid>
+</UserControl>

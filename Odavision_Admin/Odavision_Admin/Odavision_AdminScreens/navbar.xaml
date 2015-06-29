@@ -17,7 +17,7 @@
 			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Alertas por interes" Foreground="#FF170F0F" Margin="0,25,0,0" Height="25" Cursor="Hand">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="MouseLeftButtonDown">
-						<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.Screen_1_1"/>
+						<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.Alert"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</TextBlock>

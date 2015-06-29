@@ -46,8 +46,8 @@
       <FileName>navbar.xaml</FileName>
       <Annotations />
       <Position>
-        <X>303</X>
-        <Y>139</Y>
+        <X>302</X>
+        <Y>135</Y>
       </Position>
       <VisualTag>1</VisualTag>
     </Screen>
@@ -156,6 +156,18 @@
       <Position>
         <X>737</X>
         <Y>-91</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.Alert</ClassName>
+      <DisplayName>Alert</DisplayName>
+      <FileName>Alert.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>794</X>
+        <Y>19</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -427,6 +439,34 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Alert</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Alert</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.navbar</Source>
+      <Target>Odavision_AdminScreens.Alert</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Alert</Source>
+      <Target>Odavision_AdminScreens.Screen_1_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -472,10 +512,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.83333333333333337</Zoom>
+    <Zoom>0.75</Zoom>
     <Center>
-      <X>317.71063717746205</X>
-      <Y>-122.40940140036727</Y>
+      <X>606.07407407407413</X>
+      <Y>38.3674624963239</Y>
     </Center>
   </ViewState>
 </Data>
