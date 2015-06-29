@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ExpressionBlendVersion>12.0.51020.0</ExpressionBlendVersion>
+    <ExpressionBlendVersion>12.0.41002.1</ExpressionBlendVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2993c341-cc26-4c7a-8253-8455370a7b70}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -67,6 +67,9 @@
     <Compile Include="AddPerson.xaml.cs">
       <DependentUpon>AddPerson.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddReport.xaml.cs">
+      <DependentUpon>AddReport.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AddStore.xaml.cs">
       <DependentUpon>AddStore.xaml</DependentUpon>
     </Compile>
@@ -100,6 +103,9 @@
     <Compile Include="Screen_1_1.xaml.cs">
       <DependentUpon>Screen_1_1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Screen_1_2.xaml.cs">
+      <DependentUpon>Screen_1_2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StoresManagement.xaml.cs">
       <DependentUpon>StoresManagement.xaml</DependentUpon>
     </Compile>
@@ -108,6 +114,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="AddPerson.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AddReport.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -163,6 +173,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Screen_1_2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="SketchStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -187,6 +201,7 @@
       <Link>Properties\Version.cs</Link>
     </Compile>
     <Resource Include="logo_odavision.png" />
+    <Resource Include="preview_item.png" />
     <Resource Include="remove_item - Copy.png" />
     <Resource Include="Sketch.Flow" />
   </ItemGroup>
