@@ -195,6 +195,30 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.Screen_1_2</ClassName>
+      <DisplayName>ReportManagement</DisplayName>
+      <FileName>Screen_1_2.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>505</X>
+        <Y>-157</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.AddReport</ClassName>
+      <DisplayName>AddReport</DisplayName>
+      <FileName>AddReport.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>562</X>
+        <Y>-208</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -526,6 +550,41 @@
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
     </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Screen_1_2</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Screen_1_2</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Screen_1_2</Source>
+      <Target>Odavision_AdminScreens.AddStore</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.AddReport</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.AddReport</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -571,10 +630,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.75</Zoom>
+    <Zoom>0.83333333333333337</Zoom>
     <Center>
-      <X>382.81973581973614</X>
-      <Y>38.3674624963239</Y>
+      <X>73.663031799539255</X>
+      <Y>-130.72812274564149</Y>
     </Center>
   </ViewState>
 </Data>
