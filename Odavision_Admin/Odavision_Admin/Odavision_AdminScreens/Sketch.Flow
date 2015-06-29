@@ -137,13 +137,25 @@
     </Screen>
     <Screen>
       <Type>Navigation</Type>
-      <ClassName>Odavision_AdminScreens.AddPerson2</ClassName>
-      <DisplayName>AddPerson2</DisplayName>
-      <FileName>AddPerson2.xaml</FileName>
+      <ClassName>Odavision_AdminScreens.AddCamera</ClassName>
+      <DisplayName>AddCamera</DisplayName>
+      <FileName>AddCamera.xaml</FileName>
       <Annotations />
       <Position>
-        <X>799</X>
-        <Y>102</Y>
+        <X>649</X>
+        <Y>-142</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.ListCamera</ClassName>
+      <DisplayName>ListCamera</DisplayName>
+      <FileName>ListCamera.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>737</X>
+        <Y>-91</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
@@ -353,8 +365,64 @@
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
-      <Source>Odavision_AdminScreens.AddPerson</Source>
-      <Target>Odavision_AdminScreens.AddPerson2</Target>
+      <Source>Odavision_AdminScreens.CamaraManagement</Source>
+      <Target>Odavision_AdminScreens.AddStore</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.CamaraManagement</Source>
+      <Target>Odavision_AdminScreens.AddCamera</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.AddCamera</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.AddCamera</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.AddCamera</Source>
+      <Target>Odavision_AdminScreens.AddStore</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.CamaraManagement</Source>
+      <Target>Odavision_AdminScreens.ListCamera</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.ListCamera</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.ListCamera</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.ListCamera</Source>
+      <Target>Odavision_AdminScreens.AddStore</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -404,10 +472,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1.125</Zoom>
+    <Zoom>0.83333333333333337</Zoom>
     <Center>
-      <X>512.96400396130355</X>
-      <Y>107.14604759718397</Y>
+      <X>317.71063717746205</X>
+      <Y>-122.40940140036727</Y>
     </Center>
   </ViewState>
 </Data>

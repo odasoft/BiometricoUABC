@@ -38,44 +38,44 @@
 					<ListBoxItem Content="Latino" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Americano" Style="{DynamicResource ListBoxItem-Sketch}"/>
 				</ListBox>
-				<TextBlock HorizontalAlignment="Left" Margin="594.699,99.613,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Cara" FontSize="24"/>
-				<TextBlock HorizontalAlignment="Left" Margin="594.699,138.337,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Ojos" FontSize="24"/>
-				<CheckBox Content="Tuerto" HorizontalAlignment="Left" Margin="594.699,172.973,0,0" Style="{DynamicResource CheckBox-Sketch}" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
-				<RadioButton Content="Izquierdo" HorizontalAlignment="Left" Height="25.446" Margin="687.5,170.99,0,0" Style="{DynamicResource RadioButton-Sketch}" VerticalAlignment="Top" Width="96" FontSize="21.333"/>
-				<RadioButton Content="Derecho" HorizontalAlignment="Left" Height="25.446" Margin="788.5,170.99,0,0" Style="{DynamicResource RadioButton-Sketch}" VerticalAlignment="Top" Width="91" FontSize="21.333" Checked="RadioButton_Checked"/>
-				<ListBox HorizontalAlignment="Left" Height="81.153" Margin="914.199,146.837,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="178">
+				<TextBlock HorizontalAlignment="Left" Margin="594.699,86.113,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Cara" FontSize="29.333"/>
+				<TextBlock HorizontalAlignment="Left" Margin="594.699,170.682,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Ojos" FontSize="24"/>
+				<CheckBox Content="Tuerto" HorizontalAlignment="Left" Margin="594.699,200.319,0,0" Style="{DynamicResource CheckBox-Sketch}" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="0.499,1.663"/>
+				<RadioButton Content="Izquierdo" HorizontalAlignment="Left" Height="25.446" Margin="594.699,231.838,0,0" Style="{DynamicResource RadioButton-Sketch}" VerticalAlignment="Top" Width="96" FontSize="21.333"/>
+				<RadioButton Content="Derecho" HorizontalAlignment="Left" Height="25.446" Margin="695.699,231.838,0,0" Style="{DynamicResource RadioButton-Sketch}" VerticalAlignment="Top" Width="91" FontSize="21.333" Checked="RadioButton_Checked"/>
+				<ListBox HorizontalAlignment="Left" Height="81.153" Margin="829.67,180.321,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="178">
 					<ListBoxItem Content="Negro" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Azul" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Cafe" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Latino" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Americano" Style="{DynamicResource ListBoxItem-Sketch}"/>
 				</ListBox>
-				<TextBlock HorizontalAlignment="Left" Margin="594.699,241.07,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Cabello" FontSize="24"/>
-				<ListBox HorizontalAlignment="Left" Height="81.153" Margin="594.699,311.694,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="178">
+				<TextBlock HorizontalAlignment="Left" Margin="594.699,270.057,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Cabello" FontSize="24"/>
+				<ListBox HorizontalAlignment="Left" Height="81.153" Margin="594.699,355.194,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="178">
 					<ListBoxItem Content="Calvo" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Corto" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Largo" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Rizo" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Mohack" Style="{DynamicResource ListBoxItem-Sketch}"/>
 				</ListBox>
-				<TextBlock HorizontalAlignment="Left" Margin="594.699,275.706,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Estilo" FontSize="24"/>
-				<ListBox HorizontalAlignment="Left" Height="81.153" Margin="829.67,308.794,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="178">
+				<TextBlock HorizontalAlignment="Left" Margin="594.699,312.443,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Estilo" FontSize="24"/>
+				<ListBox HorizontalAlignment="Left" Height="81.153" Margin="829.67,355.294,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="178">
 					<ListBoxItem Content="Negro" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Azul" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Cafe" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Rizo" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Mohack" Style="{DynamicResource ListBoxItem-Sketch}"/>
 				</ListBox>
-				<TextBlock HorizontalAlignment="Left" Margin="829.67,272.805,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Color" FontSize="24"/>
-				<TextBlock HorizontalAlignment="Left" Margin="594.699,435.07,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" FontSize="24" Text="Perforacion"/>
-				<ListBox HorizontalAlignment="Left" Height="81.153" Margin="594.699,468.707,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="178">
+				<TextBlock HorizontalAlignment="Left" Margin="829.67,311.042,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Color" FontSize="24"/>
+				<TextBlock HorizontalAlignment="Left" Margin="590.892,499.303,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" FontSize="24" Text="Perforacion"/>
+				<ListBox HorizontalAlignment="Left" Height="81.153" Margin="594.699,538.021,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="178">
 					<ListBoxItem Content="Oreja" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Labios" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Cejas" Style="{DynamicResource ListBoxItem-Sketch}"/>
 					<ListBoxItem Content="Nariz" Style="{DynamicResource ListBoxItem-Sketch}"/>
 				</ListBox>
-				<TextBox HorizontalAlignment="Left" Height="81.153" Margin="829.67,468.707,0,0" Style="{DynamicResource Note-Sketch}" TextWrapping="Wrap" Text="Multiple seleccion en la perforacion" VerticalAlignment="Top" Width="200"/>
-				<TextBox HorizontalAlignment="Left" Height="105.153" Margin="740,41.684,0,0" Style="{DynamicResource Note-Sketch}" TextWrapping="Wrap" Text="Seleccionando el tuerco aparecera el radio button de izq/der" VerticalAlignment="Top" Width="200"/>
+				<TextBox HorizontalAlignment="Left" Height="81.153" Margin="698.985,490.853,0,0" Style="{DynamicResource Note-Sketch}" TextWrapping="Wrap" Text="Multiple seleccion en la perforacion" VerticalAlignment="Top" Width="200"/>
+				<TextBox HorizontalAlignment="Left" Height="105.153" Margin="920.5,261.607,0,0" Style="{DynamicResource Note-Sketch}" TextWrapping="Wrap" Text="Seleccionando el tuerco aparecera el radio button de izq/der" VerticalAlignment="Top" Width="200"/>
 				<TextBlock HorizontalAlignment="Left" Margin="74.199,433.209,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Incidente" FontSize="24"/>
 				<TextBox HorizontalAlignment="Left" Height="51" Margin="74.199,468.707,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
 				<TextBlock HorizontalAlignment="Left" Margin="74.199,529.209,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" FontSize="24" Width="138.801"><Run Text="Establecimient"/><Run Text="o"/></TextBlock>
@@ -91,14 +91,25 @@
 				<ComboBox HorizontalAlignment="Left" Height="40" Margin="267,616,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="178">
 					<ComboBoxItem Content="Seleccione un Establecimiento" IsSelected="True"/>
 				</ComboBox>
-				<Button Content="Agregar" HorizontalAlignment="Left" Height="49.5" Margin="598.5,616,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="109.5"/>
-				<Button Content="Regresar" HorizontalAlignment="Left" Height="49.5" Margin="757,616,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="109.5">
+				<Button Content="Agregar" HorizontalAlignment="Left" Height="49.5" Margin="982.699,569.674,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="109.5"/>
+				<Button Content="Cancelar" HorizontalAlignment="Left" Height="49.5" Margin="982.699,626.828,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="109.5">
 					<i:Interaction.Triggers>
 						<i:EventTrigger EventName="Click">
 							<pi:NavigateBackAction/>
 						</i:EventTrigger>
 					</i:Interaction.Triggers>
 				</Button>
+				<CheckBox Content="Cachucha" HorizontalAlignment="Left" Margin="594.699,635.846,0,0" Style="{DynamicResource CheckBox-Sketch}" VerticalAlignment="Top" Checked="CheckBox_Checked" FontSize="24"/>
+				<CheckBox Content="Lentes" HorizontalAlignment="Left" Margin="721.675,634.346,0,0" Style="{DynamicResource CheckBox-Sketch}" VerticalAlignment="Top" Checked="CheckBox_Checked" FontSize="24"/>
+				<TextBlock HorizontalAlignment="Left" Margin="590.892,459.157,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" FontSize="24" Text="Accessorios"/>
+				<ListBox HorizontalAlignment="Left" Height="81.153" Margin="829.67,89.896,0,0" Style="{DynamicResource ListBox-Sketch}" VerticalAlignment="Top" Width="178">
+					<ListBoxItem Content="Negro" Style="{DynamicResource ListBoxItem-Sketch}"/>
+					<ListBoxItem Content="Azul" Style="{DynamicResource ListBoxItem-Sketch}"/>
+					<ListBoxItem Content="Cafe" Style="{DynamicResource ListBoxItem-Sketch}"/>
+					<ListBoxItem Content="Latino" Style="{DynamicResource ListBoxItem-Sketch}"/>
+					<ListBoxItem Content="Americano" Style="{DynamicResource ListBoxItem-Sketch}"/>
+				</ListBox>
+				<TextBlock HorizontalAlignment="Left" Margin="594.699,134.682,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Color de Piel" FontSize="24"/>
 			</Grid>
 		</ScrollViewer>
 	</Grid>

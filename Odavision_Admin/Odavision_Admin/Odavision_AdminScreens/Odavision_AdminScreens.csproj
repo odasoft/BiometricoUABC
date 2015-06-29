@@ -60,11 +60,11 @@
     <Reference Include="Microsoft.Expression.Prototyping.SketchControls" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCamera.xaml.cs">
+      <DependentUpon>AddCamera.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AddPerson.xaml.cs">
       <DependentUpon>AddPerson.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="AddPerson2.xaml.cs">
-      <DependentUpon>AddPerson2.xaml</DependentUpon>
     </Compile>
     <Compile Include="AddStore.xaml.cs">
       <DependentUpon>AddStore.xaml</DependentUpon>
@@ -78,6 +78,9 @@
     <Compile Include="Index.xaml.cs">
       <DependentUpon>Index.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListCamera.xaml.cs">
+      <DependentUpon>ListCamera.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
@@ -90,11 +93,11 @@
     <Compile Include="StoresManagement.xaml.cs">
       <DependentUpon>StoresManagement.xaml</DependentUpon>
     </Compile>
-    <Page Include="AddPerson.xaml">
+    <Page Include="AddCamera.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="AddPerson2.xaml">
+    <Page Include="AddPerson.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -111,6 +114,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Index.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ListCamera.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

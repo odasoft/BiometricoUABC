@@ -14,11 +14,11 @@ using System.Windows.Shapes;
 namespace Odavision_AdminScreens
 {
 	/// <summary>
-	/// Interaction logic for AddPerson2.xaml
+	/// Interaction logic for AddCamera.xaml
 	/// </summary>
-	public partial class AddPerson2 : UserControl
+	public partial class AddCamera : UserControl
 	{
-		public AddPerson2()
+		public AddCamera()
 		{
 			this.InitializeComponent();
 		}
