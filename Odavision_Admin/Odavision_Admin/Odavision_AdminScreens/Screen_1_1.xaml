@@ -9,7 +9,7 @@
 
 	<Grid x:Name="LayoutRoot" Background="White">
 		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,49.5,0,0"/>
-		<local:navbar2 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="90,-0.5,-90,0"/>
+		<local:navbar2 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0.5,-0.5,-0.5,0"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="718" Margin="200,55,0,-5" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="1166"/>
 		<TextBlock HorizontalAlignment="Left" Height="47" Margin="538.801,55,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="445.199"><Run Text="Gesti"/><Run Text="ó"/><Run Text="n de "/><Run Text="Personas de Inter"/><Run Text="é"/><Run Text="s"/></TextBlock>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="205,119,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="507"/>
@@ -65,5 +65,25 @@
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="42.435" Margin="400.667,725.565,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="403.333"/>
 		<TextBlock HorizontalAlignment="Left" Height="26" Margin="561.333,732,0,0" Style="{DynamicResource TextBlock-Sketch}" Text=" &lt; 1 2 3 4 5 6 7 8 &gt;" VerticalAlignment="Top" Width="112"/>
 		<Button Content="Filtrar" HorizontalAlignment="Left" Height="51" Margin="1236.772,225,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="112" FontSize="32"/>
+		<ComboBox HorizontalAlignment="Left" Height="51" Margin="312,230,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="123">
+			<ComboBoxItem Content="Oxxo"/>
+			<ComboBoxItem Content="Farmacia"/>
+		</ComboBox>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="226,230,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Cliente" VerticalAlignment="Top" Width="89" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="448.801,230,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Estado" VerticalAlignment="Top" Width="81.199" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="677.513,230,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Ciudad" VerticalAlignment="Top" Width="81.199" FontSize="32"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="911.513,230,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Establecimiento" VerticalAlignment="Top" Width="175.487" FontSize="32"/>
+		<ComboBox HorizontalAlignment="Left" Height="51" Margin="534,230,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="123">
+			<ComboBoxItem Content="Oxxo"/>
+			<ComboBoxItem Content="Farmacia"/>
+		</ComboBox>
+		<ComboBox HorizontalAlignment="Left" Height="51" Margin="770,230,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="123">
+			<ComboBoxItem Content="Oxxo"/>
+			<ComboBoxItem Content="Farmacia"/>
+		</ComboBox>
+		<ComboBox HorizontalAlignment="Left" Height="51" Margin="1098,230,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="123">
+			<ComboBoxItem Content="Oxxo"/>
+			<ComboBoxItem Content="Farmacia"/>
+		</ComboBox>
 	</Grid>
 </UserControl>

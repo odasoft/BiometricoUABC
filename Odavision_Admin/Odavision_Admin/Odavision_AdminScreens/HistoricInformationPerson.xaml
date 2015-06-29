@@ -1,0 +1,39 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Odavision_AdminScreens" xmlns:pc="http://schemas.microsoft.com/prototyping/2010/controls" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Name="Odavision_AdminScreens_HistoricInformationPerson_Name"
+	mc:Ignorable="d"
+	x:Class="Odavision_AdminScreens.HistoricInformationPerson"
+	Width="1366" Height="768">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,49.269,0,0"/>
+		<local:navbar2 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+		<TextBlock HorizontalAlignment="Left" Height="47" Margin="538.801,55,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="445.199" Text="Información Histórica"/>
+		<TextBlock HorizontalAlignment="Left" Height="47" Margin="683,107,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="159" Text="Persona X"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="276,221.269,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
+		<Button Content="Regresar" HorizontalAlignment="Left" Height="49.5" Margin="1220,708.5,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="109.5">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateBackAction/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<TextBlock HorizontalAlignment="Left" Height="47" Margin="276,174.269,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="159" Text="Imágenes"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="276,497.269,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
+		<TextBlock HorizontalAlignment="Left" Height="47" Margin="276,450.269,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="159" Text="Videos"/>
+		<ed:BlockArrow Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="50" Margin="1302.199,295,0,0" Orientation="Right" Stroke="Black" VerticalAlignment="Top" Width="53.801"/>
+		<ed:BlockArrow Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="50" Margin="205,295,0,0" Orientation="Left" Stroke="Black" VerticalAlignment="Top" Width="53.801"/>
+		<ed:BlockArrow Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="50" Margin="205,570,0,0" Orientation="Left" Stroke="Black" VerticalAlignment="Top" Width="53.801"/>
+		<ed:BlockArrow Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="50" Margin="1302.199,570,0,0" Orientation="Right" Stroke="Black" VerticalAlignment="Top" Width="53.801"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="490,221.269,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="702,221.269,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="914,221.269,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="1124,221.269,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="490,497.269,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="702,497.269,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="914,497.269,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="200" Margin="1124,497.269,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="162"/>
+	</Grid>
+</UserControl>

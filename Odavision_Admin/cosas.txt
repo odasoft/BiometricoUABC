@@ -41,7 +41,7 @@ Incidence
 TrainingImage
 
   public int Id { get; set; }
-        public string Path { get; set; }
+        public string Path { get; set; } //Data
         public DateTime DateAdded { get; set; }
         public DateTime DateTaken { get; set; }
         public int PersonOfInterestId { get; set; }

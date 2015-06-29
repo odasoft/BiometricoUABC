@@ -159,6 +159,30 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.HistoricInformation</ClassName>
+      <DisplayName>HistoricInformation</DisplayName>
+      <FileName>HistoricInformation.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>326</X>
+        <Y>-90</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.HistoricInformationPerson</ClassName>
+      <DisplayName>HistoricInformationPerson</DisplayName>
+      <FileName>HistoricInformationPerson.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>324</X>
+        <Y>-159</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -427,6 +451,55 @@
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.HistoricInformation</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.HistoricInformation</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Home</Source>
+      <Target>Odavision_AdminScreens.HistoricInformation</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.HistoricInformation</Source>
+      <Target>Odavision_AdminScreens.HistoricInformationPerson</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.HistoricInformationPerson</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.HistoricInformationPerson</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.navbar</Source>
+      <Target>Odavision_AdminScreens.HistoricInformation</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -472,10 +545,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.83333333333333337</Zoom>
+    <Zoom>0.66666666666666663</Zoom>
     <Center>
-      <X>317.71063717746205</X>
-      <Y>-122.40940140036727</Y>
+      <X>350.6799631384942</X>
+      <Y>53.713073024277065</Y>
     </Center>
   </ViewState>
 </Data>

@@ -11,7 +11,13 @@
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="325" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="200"/>
 		<StackPanel HorizontalAlignment="Left" Height="280" Margin="50,41,0,0" VerticalAlignment="Top" Width="148">
 			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Reportes" Foreground="#FF170C0C" Margin="0,10,0,0"/>
-			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Informacion historica" Foreground="#FF060505"/>
+			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Informacion historica" Foreground="#FF060505">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="MouseLeftButtonDown">
+						<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.HistoricInformation"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</TextBlock>
 			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Reconocimiento facial" Foreground="#FF110B0B" Margin="0,25,0,0"/>
 			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Height="25" Text="Roles de Seguridad" Foreground="#FF110C0C"/>
 			<TextBlock Style="{DynamicResource BasicTextBlock-Sketch}" Text="Alertas por interes" Foreground="#FF170F0F" Margin="0,25,0,0" Height="25" Cursor="Hand">
