@@ -10,9 +10,56 @@
 	<Grid x:Name="LayoutRoot" Background="White">
 		<local:navbar2 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
 		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,49.565,0,0"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="240" Margin="320,160,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="80" Background="#FF8B1919"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="160" Margin="400,240,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="80" Background="#FF20C5A0"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="180" Margin="480,220,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="80" Background="#FFFBDC1A"/>
-		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="105" Margin="560,295,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="80" Background="#FFA026B4"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="240" Margin="320,207,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="80" Background="#FF8B1919"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="160" Margin="400,287,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="80" Background="#FF20C5A0"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="180" Margin="480,267,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="80" Background="#FFFBDC1A"/>
+		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="105" Margin="560,342,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="80" Background="#FFA026B4"/>
+		<TextBlock HorizontalAlignment="Left" Height="47" Margin="554,55,0,0" Style="{DynamicResource TitleCenter-Sketch}" Text="Estadisticas" VerticalAlignment="Top" Width="430"/>
+		<TextBlock HorizontalAlignment="Left" Margin="320,102,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="DD/MM/AAAA a DD/MM/AAAA" VerticalAlignment="Top" Width="240" FontSize="21.333"/>
+		<TextBlock HorizontalAlignment="Left" Margin="320,128.343,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Mujeres" VerticalAlignment="Top" Width="240" FontSize="21.333"/>
+		<TextBlock HorizontalAlignment="Left" Margin="320,154.686,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Sucursal Diaz Ordaz XX..... Tj, BC." VerticalAlignment="Top" Width="265" FontSize="21.333"/>
+		<TextBlock HorizontalAlignment="Left" Margin="295,388.656,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="10" VerticalAlignment="Top" Width="25" FontSize="21.333"/>
+		<TextBlock HorizontalAlignment="Left" Margin="295,310,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="20" VerticalAlignment="Top" Width="25" FontSize="21.333"/>
+		<TextBlock HorizontalAlignment="Left" Margin="295,225,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="30" VerticalAlignment="Top" Width="25" FontSize="21.333"/>
+		<TextBlock HorizontalAlignment="Left" Margin="300,479.656,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="21 - 25 años" VerticalAlignment="Top" Width="100" FontSize="21.333" RenderTransformOrigin="0.5,0.5">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-40.674"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="380,478,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="26 - 30 años" VerticalAlignment="Top" Width="100" FontSize="21.333" RenderTransformOrigin="0.5,0.5">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-40.674"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="460,479,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="31 - 35 años" VerticalAlignment="Top" Width="100" FontSize="21.333" RenderTransformOrigin="0.5,0.5">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-40.674"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="540,478.656,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="36 - 40 años" VerticalAlignment="Top" Width="100" FontSize="21.333" RenderTransformOrigin="0.5,0.5">
+			<TextBlock.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="-40.674"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</TextBlock.RenderTransform>
+		</TextBlock>
 	</Grid>
 </UserControl>

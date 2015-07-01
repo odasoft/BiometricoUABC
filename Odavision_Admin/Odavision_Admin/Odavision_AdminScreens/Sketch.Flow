@@ -243,6 +243,42 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.FacialRecgnitionTraining</ClassName>
+      <DisplayName>FacialRecgnitionTraining</DisplayName>
+      <FileName>FacialRecgnitionTraining.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>474</X>
+        <Y>-157</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.FacialRecognitionTraingingVideo</ClassName>
+      <DisplayName>FacialRecognitionTraingingVideo</DisplayName>
+      <FileName>FacialRecognitionTraingingVideo.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>453</X>
+        <Y>-203</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.FRTV2</ClassName>
+      <DisplayName>FRTV2</DisplayName>
+      <FileName>FRTV2.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>467</X>
+        <Y>-224</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -637,6 +673,69 @@
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
     </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Home</Source>
+      <Target>Odavision_AdminScreens.FacialRecgnitionTraining</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.FacialRecgnitionTraining</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.FacialRecgnitionTraining</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.FacialRecgnitionTraining</Source>
+      <Target>Odavision_AdminScreens.FacialRecognitionTraingingVideo</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.FacialRecognitionTraingingVideo</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.FacialRecognitionTraingingVideo</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.FacialRecognitionTraingingVideo</Source>
+      <Target>Odavision_AdminScreens.FRTV2</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.FRTV2</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.FRTV2</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -684,8 +783,8 @@
   <ViewState>
     <Zoom>0.83333333333333337</Zoom>
     <Center>
-      <X>265.62647031966981</X>
-      <Y>-246.18233961311142</Y>
+      <X>265.58647031966984</X>
+      <Y>-127.92393816104843</Y>
     </Center>
   </ViewState>
 </Data>

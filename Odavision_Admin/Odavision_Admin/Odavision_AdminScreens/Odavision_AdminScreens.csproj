@@ -79,6 +79,15 @@
     <Compile Include="CamaraManagement.xaml.cs">
       <DependentUpon>CamaraManagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FacialRecgnitionTraining.xaml.cs">
+      <DependentUpon>FacialRecgnitionTraining.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FacialRecognitionTraingingVideo.xaml.cs">
+      <DependentUpon>FacialRecognitionTraingingVideo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FRTV2.xaml.cs">
+      <DependentUpon>FRTV2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HistoricInformation.xaml.cs">
       <DependentUpon>HistoricInformation.xaml</DependentUpon>
     </Compile>
@@ -136,6 +145,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="CamaraManagement.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FacialRecgnitionTraining.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FacialRecognitionTraingingVideo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FRTV2.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
