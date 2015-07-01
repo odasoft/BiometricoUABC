@@ -16,13 +16,7 @@
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="72.565" Margin="205,310,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="955"/>
 		<TextBlock HorizontalAlignment="Left" Height="40" Margin="226,333.565,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Reporte X" VerticalAlignment="Top" Width="239" FontSize="32"/>
 		<TextBlock HorizontalAlignment="Left" Height="52" Margin="520,320.231,0,0" Style="{DynamicResource TextBlock-Sketch}" VerticalAlignment="Top" Width="343" FontSize="24" Text="Fecha 1 DD/MM/AA a Fecha 2 DD/MM/AA"/>
-		<Image Margin="520,127,786,581" Source="add_item - Copy.png" Stretch="Fill">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.AddStore"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Image>
+		<Image Margin="520,127,786,581" Source="add_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="994.5,318.565,311.5,389.435" Source="edit_item - Copy.png" Stretch="Fill"/>
 		<Image Margin="1080,318.565,226,389.435" Source="remove_item - Copy.png" Stretch="Fill"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="84" Margin="207,210,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="1149"/>

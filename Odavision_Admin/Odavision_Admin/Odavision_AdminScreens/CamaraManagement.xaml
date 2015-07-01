@@ -70,47 +70,11 @@
 			<ComboBoxItem Content="Oxxo"/>
 			<ComboBoxItem Content="Farmacia"/>
 		</ComboBox>
-		<Image Margin="892.5,317.065,413.5,390.935" Source="add_item - Copy.png" Stretch="Fill">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.AddStore"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Image>
-		<Image Margin="892.5,387.065,413.5,320.935" Source="add_item - Copy.png" Stretch="Fill">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.AddStore"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Image>
-		<Image Margin="892.5,454.5,413.5,253.5" Source="add_item - Copy.png" Stretch="Fill">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.AddStore"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Image>
-		<Image Margin="892.5,521.565,413.5,186.435" Source="add_item - Copy.png" Stretch="Fill">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.AddStore"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Image>
-		<Image Margin="892.5,584.5,413.5,123.5" Source="add_item - Copy.png" Stretch="Fill">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.AddStore"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Image>
-		<Image Margin="892.5,655.565,413.5,52.435" Source="add_item - Copy.png" Stretch="Fill">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseLeftButtonDown">
-					<pi:NavigateToScreenAction TargetScreen="Odavision_AdminScreens.AddStore"/>
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</Image>
+		<Image Margin="892.5,317.065,413.5,390.935" Source="add_item - Copy.png" Stretch="Fill"/>
+		<Image Margin="892.5,387.065,413.5,320.935" Source="add_item - Copy.png" Stretch="Fill"/>
+		<Image Margin="892.5,454.5,413.5,253.5" Source="add_item - Copy.png" Stretch="Fill"/>
+		<Image Margin="892.5,521.565,413.5,186.435" Source="add_item - Copy.png" Stretch="Fill"/>
+		<Image Margin="892.5,584.5,413.5,123.5" Source="add_item - Copy.png" Stretch="Fill"/>
+		<Image Margin="892.5,655.565,413.5,52.435" Source="add_item - Copy.png" Stretch="Fill"/>
 	</Grid>
 </UserControl>
