@@ -10,7 +10,7 @@
 	<Grid x:Name="LayoutRoot" Background="White">
 		<local:navbar2 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
 		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,49.565,0,0"/>
-		<TextBlock HorizontalAlignment="Left" Height="47" Margin="554,55,0,0" Style="{DynamicResource TitleCenter-Sketch}" Text="Gestion de Reportes" VerticalAlignment="Top" Width="430"/>
+		<TextBlock HorizontalAlignment="Left" Height="47" Margin="554,55,0,0" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="430"><Run Text="Gesti"/><Run Text="ó"/><Run Text="n de Reportes"/></TextBlock>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="75" Margin="205,119,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="435"/>
 		<TextBlock HorizontalAlignment="Left" Height="35" Margin="226,134,0,0" Style="{DynamicResource TextBlock-Sketch}" Text="Generar Reporte" VerticalAlignment="Top" Width="267" FontSize="32"/>
 		<pc:SketchRectangleUC HorizontalAlignment="Left" Height="72.565" Margin="205,310,0,0" Style="{DynamicResource Rectangle-Sketch}" VerticalAlignment="Top" Width="955"/>

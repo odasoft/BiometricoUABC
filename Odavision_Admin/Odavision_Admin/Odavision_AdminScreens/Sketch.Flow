@@ -279,6 +279,30 @@
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.UsersManagement</ClassName>
+      <DisplayName>UsersManagement</DisplayName>
+      <FileName>UsersManagement.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>311</X>
+        <Y>-189</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>Odavision_AdminScreens.AddUser</ClassName>
+      <DisplayName>AddUser</DisplayName>
+      <FileName>AddUser.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>318</X>
+        <Y>-236</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
   </Screens>
   <Connections>
     <Connection>
@@ -736,6 +760,55 @@
       <TransitionType>None</TransitionType>
       <VisualTag>1</VisualTag>
     </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.Home</Source>
+      <Target>Odavision_AdminScreens.UsersManagement</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.UsersManagement</Source>
+      <Target>Odavision_AdminScreens.AddUser</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.UsersManagement</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.AddUser</Source>
+      <Target>Odavision_AdminScreens.navbar</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.UsersManagement</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.AddUser</Source>
+      <Target>Odavision_AdminScreens.navbar2</Target>
+      <Type>Composition</Type>
+      <TransitionType>None</TransitionType>
+      <VisualTag>1</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>Odavision_AdminScreens.UsersManagement</Source>
+      <Target>Odavision_AdminScreens.HistoricInformationPerson</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
   </Connections>
   <PrototypeRevision>0</PrototypeRevision>
   <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
@@ -781,10 +854,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>0.83333333333333337</Zoom>
+    <Zoom>0.66666666666666663</Zoom>
     <Center>
-      <X>265.58647031966984</X>
-      <Y>-127.92393816104843</Y>
+      <X>71.395723429195641</X>
+      <Y>-62.624349108236814</Y>
     </Center>
   </ViewState>
 </Data>

@@ -1,0 +1,37 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Odavision_AdminScreens" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity" x:Name="Odavision_AdminScreens_AddUser_Name"
+	mc:Ignorable="d"
+	x:Class="Odavision_AdminScreens.AddUser"
+	Width="1366" Height="768">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<local:navbar HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,49.269,0,0"/>
+		<local:navbar2 HorizontalAlignment="Left" VerticalAlignment="Top" d:IsPrototypingComposition="True"/>
+		<Button Content="Agregar" HorizontalAlignment="Left" Height="54.562" Margin="985,690.134,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="135" Click="Button_Click" FontSize="24"/>
+		<Button Content="Cancelar" HorizontalAlignment="Left" Height="54.562" Margin="1140,690.134,0,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="135" Click="Button_Click" FontSize="24">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pi:NavigateBackAction/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<TextBlock HorizontalAlignment="Left" Margin="410.199,190.836,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Tipo" FontSize="24"/>
+		<ComboBox HorizontalAlignment="Left" Height="40" Margin="410.199,225.474,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="178">
+			<ComboBoxItem Content="SuperAdmin"/>
+			<ComboBoxItem Content="Admin"/>
+			<ComboBoxItem Content="Gerente"/>
+		</ComboBox>
+		<TextBlock HorizontalAlignment="Left" Height="47" Style="{DynamicResource TitleCenter-Sketch}" VerticalAlignment="Top" Width="445.199" Margin="469,55,0,0"><Run Text="Añadir "/><Run Text="Usuario"/><LineBreak/><Run/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Margin="220.199,100.338,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Nombre" FontSize="24"/>
+		<TextBox HorizontalAlignment="Left" Height="51" Margin="220.199,135.836,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+		<TextBlock HorizontalAlignment="Left" Margin="414.199,100.338,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Apellido" FontSize="24"/>
+		<TextBox HorizontalAlignment="Left" Height="51" Margin="414.199,135.836,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+		<TextBlock HorizontalAlignment="Left" Margin="220.199,192.338,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Usuario" FontSize="24"/>
+		<TextBox HorizontalAlignment="Left" Height="51" Margin="220.199,227.836,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+		<TextBlock HorizontalAlignment="Left" Margin="220.199,282.338,0,0" Style="{DynamicResource BasicTextBlock-Sketch}" VerticalAlignment="Top" Text="Correo" FontSize="24"/>
+		<TextBox HorizontalAlignment="Left" Height="51" Margin="220.199,317.836,0,0" Style="{DynamicResource TextBox-Sketch}" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+	</Grid>
+</UserControl>

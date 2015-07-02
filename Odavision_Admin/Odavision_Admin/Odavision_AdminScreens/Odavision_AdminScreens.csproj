@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ExpressionBlendVersion>12.0.41002.1</ExpressionBlendVersion>
+    <ExpressionBlendVersion>12.0.51020.0</ExpressionBlendVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2993c341-cc26-4c7a-8253-8455370a7b70}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -73,6 +73,9 @@
     <Compile Include="AddStore.xaml.cs">
       <DependentUpon>AddStore.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddUser.xaml.cs">
+      <DependentUpon>AddUser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Alert.xaml.cs">
       <DependentUpon>Alert.xaml</DependentUpon>
     </Compile>
@@ -124,6 +127,9 @@
     <Compile Include="StoresManagement.xaml.cs">
       <DependentUpon>StoresManagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UsersManagement.xaml.cs">
+      <DependentUpon>UsersManagement.xaml</DependentUpon>
+    </Compile>
     <Page Include="AddCamera.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -137,6 +143,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="AddStore.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AddUser.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -217,6 +227,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="StoresManagement.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UsersManagement.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
